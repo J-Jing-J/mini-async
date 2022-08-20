@@ -9,7 +9,7 @@ redux和redux-saga的数据流方案，为了简化开发体验，还内置了re
 出现背景：
 以前用redux：
 一个页面要涉及到很多文件：页面本身、store的index和reducer文件、action(saga)
-bug不好找，改文件费力
+bug不好找，改文件费力，不好维护
 
 dva：核心思想：把reducer、initialState、action、saga封装到一个model中
 现在我们只需要关注主页面也model文件就可以了
